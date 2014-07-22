@@ -1,0 +1,40 @@
+{
+  "name": "npdf",
+  "author": "Andrey Sidorov <sidorares@yandex.ru>",
+  "description": "pdf viewer using emscripten compiled pdfium + node-x11 X Window client",
+  "keywords": [
+    "pdf",
+    "viewer",
+    "x11"
+  ],
+  "homepage": "https://github.com/sidorares/npdf",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Andrey Sidorov",
+      "email": "sidoares@yandex.ru"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/sidorares/npdf/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sidorares/npdf.git"
+  },
+  "main": "./npdf.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "x11": "^0.10.0"
+  },
+  "bin": {
+    "npdf": "./npdf.js"
+  }
+}
