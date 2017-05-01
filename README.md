@@ -1,5 +1,7 @@
 # npdf
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sidorares/npdf.svg)](https://greenkeeper.io/)
+
 Desktop pdf viewer using [emscripten](https://github.com/kripken/emscripten)-[compiled](https://github.com/coolwanglu/PDFium.js) [pdfium
 ](https://code.google.com/p/pdfium/) and [node-x11](https://github.com/sidorares/node-x11)
 
