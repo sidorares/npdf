@@ -32,7 +32,7 @@
     "node": "*"
   },
   "dependencies": {
-    "x11": "^0.10.0"
+    "x11": "^2.2.1"
   },
   "bin": {
     "npdf": "./npdf.js"
